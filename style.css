@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background:lightgray;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.summary-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.summary-card h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eee;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.report-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.page-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.score-summary {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.score-card {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.score.good {
+  color: #2e7d32;
+}
+
+.score.medium {
+  color: #f9a825;
+}
+
+.score.bad {
+  color: #c62828;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.section-card {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 12px 14px;
+  border: 1px solid #eee;
+}
+
+.section-card h4 {
+  margin-top: 0;
+}
+
+.issue {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.issue.high {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.issue.medium {
+  color: #f57c00;
+}
+
+.issue.low {
+  color: #1976d2;
+}
+
+.issue.info {
+  color: #455a64;
+}
+
+.ok {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.recommendations {
+  margin-top: 8px;
+  font-size: 13px;
+}
+#audit-form{
+    text-align: center;
+    line-height: normal;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container{
+    text-align: center;
+
+}
+.container10{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
